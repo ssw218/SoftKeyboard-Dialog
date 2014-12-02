@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="20%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="@dimen/key_height" >
+    
+    <Row>
+        <Key android:codes="113" android:keyLabel="q" android:keyEdgeFlags="left"/>
+        <Key android:codes="119" android:keyLabel="w"/>
+        <Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return"/>
+        <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete" android:isRepeatable="true" />
+        <Key android:codes="-101" android:keyIcon="@drawable/sym_keyboard_switch" android:keyEdgeFlags="right"/>
+    </Row>
+    
+</Keyboard>
+    
